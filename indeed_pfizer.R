@@ -1,7 +1,7 @@
 library(xml2)
 library(rvest)
 
-website <- read.csv("D:\\columbia university\\AA\\capstone\\indeed_pfizer.txt", header = F, stringsAsFactors = F)
+website <- read.csv("indeed_pfizer.txt", header = F, stringsAsFactors = F)
 
 all_web <- c(1:204)
 for(i in 1:21){
